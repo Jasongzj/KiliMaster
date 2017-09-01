@@ -1,0 +1,401 @@
+body {
+  font-family: "Microsoft YaHei";
+  background-color: #fbfbfb;
+}
+/*导航条*/
+.navbar-wrapper {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 0;
+  background-color: transparent!important;
+  border-color: transparent!important;
+}
+.navbar-wrapper .container {
+  background-color: transparent!important;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+/*重设导航样式*/
+.navbar-wrapper ul.nav{
+  text-align: center;
+}
+.navbar-wrapper ul.nav a{
+  color: #ffffff;
+  font-size: 16px;
+}
+.nav-justified>li {
+  /*display: inline-block;*/
+  /*width: initial; */
+}
+/*.nav-justified>li.active a {
+  border-bottom: 2px solid #ffffff;
+}*/
+.navbar-wrapper ul.nav{
+  margin-top: 25px;
+}
+.nav>li>a {
+  background-color: #369cba; 
+  padding: 0px 15px;
+  margin-right: 46px;
+}
+/*轮播按钮样式*/
+.carousel-indicators > li{
+  width: 96px;
+  height: 3px;
+  border-radius: 0;
+  color: #e3e2e2!important;
+}
+.carousel-indicators > li.active{
+  width: 96px;
+  height: 3px;
+  margin: 1px;
+  color: #808080!important;
+}
+
+/* 顶部div*/
+.header{
+}
+/* 顶部div 中的标题快*/
+.top-title{
+  background-color: #ffffff;
+  padding: 24px 50px;
+}
+
+/* 图片轮播 */
+.carousel {
+  height: 688px;
+  border-top: 8px solid #C3DBEA!important;
+}
+.carousel .item {
+  height: 688px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 688px;
+}
+
+/*中间内容*/
+.content > .container{
+  background-color: #ffffff;
+  /*min-height: 400px;*/
+}
+
+/*圆形图片块*/
+.circle-img-box{
+  margin-top: 60px;
+}
+
+/*Moutain box*/
+.mountain-box{
+  margin-top: -82px;
+  padding: 0 200px;
+}
+/*Coast box*/
+.coast-box{
+  padding: 0 134px;
+}
+/*Coast text box*/
+.coast-text-box{
+  background-color: #ffffff;
+  margin-top: -116px;
+  padding: 56px 36px;
+}
+/*coast img*/
+.coast-img-box{
+  padding-top: 60px;
+}
+
+/*wildlife*/
+.wildlife-box{
+  padding: 0 106px;
+}
+.wiidlife-img{
+  margin-top: -96px;
+}
+
+/*who we are box*/
+.whoweare-box{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 178px;
+}
+/*whoweare-text-box*/
+.whoweare-text-box{
+  background-color: #ffffff;
+  width: 446px;
+  margin: 62px 0 52px -32px;
+  padding: 22px 28px;
+  -moz-box-shadow: 5px 5px 30px #dbdada; /* 老的 Firefox */
+  box-shadow: 5px 5px 30px #dbdada;
+}
+/*founder-img-box*/
+.founder-img-box{
+  background-color: #7bbed2;
+  padding: 50px 0 20px 0;
+  text-align: center;
+}
+/*.founder-text-box*/
+.founder-text-box{
+  padding: 52px 120px; 
+}
+.text-div{
+  padding: 31px;
+}
+/*about tanzania*/
+.tan-4-img-div{
+  padding: 0 74px;
+  margin-top: -60px;
+  margin-bottom: 50px;
+}
+/*tanzania blue div*/
+.tan-blue-div{
+  background-color: #eef6fa;
+  padding: 56px 130px;
+}
+/*tan-div*/
+.tan-div{
+  padding: 50px 110px;
+}
+/*event in tanzania*/
+.evenst-div{
+  background-color: #eef6fa;
+  padding: 56px 74px;
+}
+/*.events-text-box*/
+.events-text-box{
+  padding: 52px 74px; 
+}
+.events-text-box p {
+  color: #A5A5A5;
+}
+.events-img-box{
+  padding: 0 74px;
+}
+/*more Islands and coast*/
+.island-text-div{
+  padding: 64px 180px;
+}
+/*moremoutain kilimanjato div*/
+.kilimanjato-div-text-box{
+  background-color: #ffffff;
+  width: 460px;
+  padding: 16px;
+  -moz-box-shadow: 5px 5px 30px #dbdada; /* 老的 Firefox */
+  box-shadow: 5px 5px 30px #dbdada;
+}
+
+/*more Moutain*/
+.img-2-div{
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top: -82px;
+}
+.transform-img1{
+  position: relative;
+  z-index: 2;
+  transform: translateX(-42%);
+  margin-top: 30px;
+}
+.transform-img2{
+  transform: translateX(42%);
+  margin-top: -150px;
+  -moz-box-shadow: 15px 15px 15px #c3dbea; /* 老的 Firefox */
+  box-shadow: 15px 15px 15px #c3dbea;
+}
+
+/*more wildlife*/
+.absolute-img{
+  position: absolute;
+  top: -65px;
+  right: 20%;
+  padding: 10px;
+  background-color:#ffffff;
+}
+.show-top{
+  position: relative;
+  z-index: 3;
+}
+/*底部*/
+.footer {
+  background-color: #0d4b68;
+  height: 233px;
+  margin-top: -5px
+}
+.footer .container{
+  background-color: #ffffff;
+  height: 141px;
+  font-size: 24px;
+}
+.footer .icon{
+  display: block;
+  padding: 47px 0 16px 0;
+}
+.footer .icon span{
+  margin-right: 20px;
+}
+
+
+/*通用样式*/
+/*蓝色底部边*/
+.bottom-blue-border:after{
+  content: '—— · ——';
+  display: block;
+  color: #C3DBEA;
+}
+.bottom-white-border:after{
+  content: '—— · ——';
+  display: block;
+  color: white;
+}
+.bottom-gray-border:after{
+  content: '——';
+  display: block;
+  color: #A5A5A5;
+}
+.bottom-black-border:after{
+  content: '———';
+  display: block;
+  color: #000000;
+}
+.bg-white{
+  background-color: #ffffff;
+}
+.bg-deepblue{
+  background-color: #7bbed2;
+}
+.color-white{
+  color: #ffffff;
+}
+.color-black{
+  color: #333;
+}
+.color-blue{
+  color: #C3DBEA;
+}
+.color-deepblue{
+  color: #369CBA;
+}
+.color-gray{
+  color: #A5A5A5;
+}
+.font-size-16{
+  font-size: 16px;
+}
+.font-size-20{
+  font-size: 20px;
+}
+.remove-radius{
+  border-radius: 0;
+}
+
+
+.margin-top-5{
+  margin-top: 5px;
+}
+.margin-top-10{
+  margin-top: 10px;
+}
+.margin-top-20{
+  margin-top: 20px;
+}
+.margin-top-60{
+  margin-top: 60px;
+}
+.margin-top-96{
+  margin-top: 96px;
+}
+.margin-top_80{
+  margin-top: -80px;
+}
+.margin-bottom-20{
+  margin-bottom: 20px;
+}
+.margin-bottom-96{
+  margin-bottom: 96px;
+}
+.margin-left-124{
+  margin-left: 124px;
+}
+.margin-right-124{
+  margin-right: 124px;
+}
+.padding-top-15{
+  padding-top: 15px;
+}
+.pd-l-r-136{
+  padding: 0 136px;
+}
+.pd-l-r-30{
+  padding: 0 30px;
+}
+.pd-l-r-60{
+  padding: 0 60px;
+}
+.pd-l-r-90{
+  padding: 0 90px;
+}
+.pd-l-r-200{
+  padding: 0 200px;
+}
+.padding-5{
+  padding: 5px;
+}
+.padding-15{
+  padding: 15px;
+}
+.padding-top-116{
+  padding-top: 116px;
+}
+.float-right{
+  float: right;
+}
+
+/*shadow*/
+.shadow{
+  -moz-box-shadow: 10px 10px 5px #e7f1f7; /* 老的 Firefox */
+  box-shadow: 10px 10px 5px #e7f1f7;
+}
+
+/*点标签*/
+.border-dotted{
+  border: 1px dotted #C3DBEA;
+}
+.border-gray-dotted{
+  border: 1px dotted #a9a9a9;
+}
+
+.position-releative{
+  position: relative;
+}
+/*captivating div img*/
+.captivating-div-img{
+  position: absolute;
+  top: 0;
+  left: 60%;
+  z-index: 2;
+}
+.display-inlineblock{
+  display: inline-block;
+}
+
+.min-height-320{
+  min-height: 320px;
+}
