@@ -11,63 +11,20 @@ body {
   z-index: 20;
 }
 
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-bottom: 0;
-  background-color: transparent!important;
-  border-color: transparent!important;
-}
-.navbar-wrapper .container {
-  background-color: transparent!important;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
-/*重设导航样式*/
-.navbar-wrapper ul.nav{
-  text-align: center;
-}
-.navbar-wrapper ul.nav a{
-  color: #ffffff;
-  font-size: 16px;
-}
-.nav-justified>li {
-  /*display: inline-block;*/
-  /*width: initial; */
-}
-/*.nav-justified>li.active a {
-  border-bottom: 2px solid #ffffff;
-}*/
-.navbar-wrapper ul.nav{
-  margin-top: 25px;
-}
-.nav>li>a {
-  background-color: #369cba; 
-  padding: 0px 15px;
-  margin-right: 46px;
-}
 /*轮播按钮样式*/
 .carousel-indicators > li{
   width: 96px;
-  height: 3px;
+  height: 5px;
   border-radius: 0;
   color: #e3e2e2!important;
 }
 .carousel-indicators > li.active{
   width: 96px;
-  height: 3px;
+  height: 5px;
   margin: 1px;
   color: #808080!important;
 }
 
-/* 顶部div*/
-.header{
-}
 /* 顶部div 中的标题快*/
 .top-title{
   background-color: #ffffff;
@@ -399,3 +356,4 @@ body {
 .min-height-320{
   min-height: 320px;
 }
+
