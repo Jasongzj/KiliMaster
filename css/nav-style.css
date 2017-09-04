@@ -27,11 +27,11 @@
 }
 
 .header .navbar-nav>.active>a {
-    color: white;
+    color: #369CBA;
 }
 
 .header .navbar-nav>li>a {
-    color: white;
+    color: #369CBA;
 }
 
 .header .topbar ul.loginbar>li>a,
@@ -156,14 +156,14 @@ a:hover {
 }
 
 .header .navbar-nav>li>a {
-    color: white;
+    color: #369DBB;
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase
 }
 
 .header .navbar-nav>.active>a {
-    color: white;
+    color: #369dbb;
     border-bottom: 2px solid white;
 }
 
@@ -302,7 +302,7 @@ a:hover {
     .header .navbar-nav>li>a:hover {
         bottom: -2px;
         position: relative;
-        border-bottom: solid 2px white
+        border-bottom: solid 2px #369dbb;
     }
     .header .navbar-nav>.active>a,
     .header .navbar-nav>.active>a:focus,
@@ -479,6 +479,10 @@ a:hover {
 .header .mega-menu .dropup,
 .header .mega-menu .nav {
     position: static
+}
+
+.header .mega-menu .nav {
+    padding-right: 94px;
 }
 
 .header .mega-menu .container,
