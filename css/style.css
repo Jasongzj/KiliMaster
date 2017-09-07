@@ -33,7 +33,8 @@ body {
 
 /* 图片轮播 */
 .carousel {
-  border-top: 8px solid #C3DBEA!important;
+  /*border-top: 8px solid #C3DBEA!important;*/
+  margin: 0 -15px;
 }
 .carousel .item {
   background-color: #777;
