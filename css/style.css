@@ -270,6 +270,9 @@ body {
 .margin-top-20{
   margin-top: 20px;
 }
+.margin-top-40 {
+  margin-top: 40px;
+}
 .margin-top-60{
   margin-top: 60px;
 }
@@ -284,6 +287,9 @@ body {
 }
 .margin-bottom-96{
   margin-bottom: 96px;
+}
+.margin-left-35 {
+    margin-left: 35px;
 }
 .margin-left-124{
   margin-left: 124px;
@@ -349,8 +355,24 @@ body {
 .display-inlineblock{
   display: inline-block;
 }
+.display-inline {
+    display: inline;
+}
 
 .min-height-320{
   min-height: 320px;
+}
+/*title*/
+.title {
+    width: 860px;
+    color: #369dbb;
+    vertical-align: middle;
+}
+/*subtitle*/
+.font-bold {
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 26px;
 }
 
