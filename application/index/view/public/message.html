@@ -1,0 +1,41 @@
+<div id="onService_panel">
+
+    <div id="onlineList">
+        <!--<em class="online_close" id="onlineClose" title="关闭"></em>
+        <div class="online_open" id="onlineOpen"></div>-->
+
+        <form class="online_message_form" role="form">
+            <div class="message_message">
+                <label>Message:</label>
+                <textarea class="form-control" placeholder="Please enter your message. We will contact you soon." name="message" id="message" onblur="validate('message')"></textarea>
+                <span id="notice_message" style="color:Red;display:none;">* Please enter your message!</span>
+            </div>
+            <div class="message_name">
+                <label>Name:</label>
+                <input type="text" class="form-control" name="name" id="name" onblur="validate('name')">
+                <span id="notice_name" style="color:Red;display:none;">* Please enter your name!</span>
+            </div>
+            <div class="message_email">
+                <label>Email:</label>
+                <input type="email" class="form-control" name="email" id="email" onblur="validate('email')">
+                <span id="notice_email" style="color:Red;display:none;">* Please enter your E-mail address!</span>
+                <span id="notice_correct_email" style="color:Red;display:none;">* Please enter an avilable E-mail address!</span>
+            </div>
+            <input type="button" value="submit" class="btn btn-default" id="submitBtn">
+        </form>
+
+        <div class="contact">
+            <h5 class="font-bold">CONTACT US</h5>
+            <p><span class="glyphicon glyphicon-envelope"></span>kilimaster5215@gmail.com</p>
+            <p><span class="glyphicon glyphicon-earphone"></span>+255767543053</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    var SCOPE = {
+        'post_url' : "{:url('index/index/message')}"
+    }
+</script>
+
+

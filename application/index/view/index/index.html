@@ -1,0 +1,116 @@
+{include file="public/header"}
+    <!-- 中间内容主体 -->
+    <div class="content">
+      {include file="public/message"}
+      <div class="container">
+        <!-- Moutain 简介 -->
+        <div class="row margin-top-60">
+          <div class="col-sm-9">
+            <div id="moutainCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#moutainCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#moutainCarousel" data-slide-to="1"></li>
+                <li data-target="#moutainCarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img class="first-slide img-responsive" class="img-responsive" src="__IMAGE__/moutain-slideshow-1.jpg" alt="First slide">
+                </div>
+                <div class="item">
+                  <img class="second-slide img-responsive" class="img-responsive" src="__IMAGE__/moutain-slideshow-2.jpg" alt="Second slide">
+                </div>
+                <div class="item">
+                  <img class="third-slide img-responsive" class="img-responsive" src="__IMAGE__/moutain-slideshow-3.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="">
+              <h1 class="color-deepblue margin-top-20 text-right font-bold">
+                <span class="bottom-gray-border">Mountain</span>
+              </h1>
+              <!-- <h1 class="font-size-16 text-left"> -->
+              <p class="text-right margin-top-20 margin-bottom-20 subtitle">
+                Kilimanjaro<br>
+                Meru<br>
+              </p>
+              <a class="btn btn-default remove-radius pull-right" href="{:url('index/mountain/index')}" role="button">MORE</a></p>
+              <!-- </h1> -->
+            </div>
+          </div>
+        </div>
+        <!-- Wildlife 简介 -->
+        <div class="row margin-top-60 margin-bottom-96">
+          <div class="col-sm-3">
+            <div class="">
+              <h1 class="color-deepblue margin-top-20 font-bold">
+                <span class="bottom-gray-border">Wildlife Safaris</span>
+              </h1>
+              <p class="text-left margin-top-20 margin-bottom-20 subtitle">
+                Cultural Experience<br>
+                Wild Animals<br>
+              </p>
+              <a class="btn btn-default remove-radius margin-top-5 pull-left" href="{:url('index/wildlife/index')}" role="button">MORE</a>
+            </div>
+
+          </div>
+          <div class="col-sm-9">
+            <div id="wildlifeCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#wildlifeCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#wildlifeCarousel" data-slide-to="1"></li>
+                <li data-target="#wildlifeCarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img class="first-slide img-responsive" class="img-responsive" src="__IMAGE__/wildlife-slideshow-1.jpg" alt="First slide">
+                </div>
+                <div class="item">
+                  <img class="second-slide img-responsive" class="img-responsive" src="__IMAGE__/wildlife-slideshow-2.jpg" alt="Second slide">
+                </div>
+                <div class="item">
+                  <img class="third-slide img-responsive" class="img-responsive" src="__IMAGE__/wildlife-slideshow-3.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Island and Coast 简介 -->
+        <div class="row margin-top-60">
+          <div class="col-sm-9">
+            <div id="coastCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#coastCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#coastCarousel" data-slide-to="1"></li>
+                <li data-target="#coastCarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img class="first-slide img-responsive" class="img-responsive" src="__IMAGE__/coast-slideshow-1.jpg" alt="First slide">
+                </div>
+                <div class="item">
+                  <img class="second-slide img-responsive" class="img-responsive" src="__IMAGE__/coast-slideshow-2.jpg" alt="Second slide">
+                </div>
+                <div class="item">
+                  <img class="third-slide img-responsive" class="img-responsive" src="__IMAGE__/coast-slideshow-3.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="">
+              <h1 class="color-deepblue text-right font-bold">
+                <span>Islands</span><br>
+                <span class="bottom-gray-border">And Coast</span>
+              </h1>
+              <p class="text-right margin-top-20 margin-bottom-20 subtitle">
+                Zanzibar
+              </p>
+              <a class="btn btn-default remove-radius margin-top-5 pull-right" href="{:url('index/coast/index')}" role="button">MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{include file="public/footer"}
