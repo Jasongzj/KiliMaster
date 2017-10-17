@@ -26,3 +26,8 @@ function clean_input($param)
     }
     return $param;
 }
+
+function getMD5Password($password)
+{
+    return MD5(config('MD5_PRE').$password);
+}

@@ -13,7 +13,7 @@ use page\Page;
 use think\Controller;
 use think\Db;
 
-class Message extends Controller
+class Message extends Basic
 {
     public function index()
     {

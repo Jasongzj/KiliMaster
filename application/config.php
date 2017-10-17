@@ -243,4 +243,7 @@ return [
         'var_page'  => 'page',
         'list_rows' => 15,
     ],
+
+    //MD5加密前缀
+    'MD5_PRE' => 'kili&master',
 ];
